@@ -1,0 +1,34 @@
+{
+  "name": "backend",
+  "version": "0.0.0",
+  "main": "app.js",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "dependencies": {
+    "api": "^4.5.2",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "http-proxy-middleware": "^2.0.6",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "pug": "^3.0.2",
+    "sequelize": "^6.25.0",
+    "server": "^1.0.37"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "nodemon": "^2.0.20",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
